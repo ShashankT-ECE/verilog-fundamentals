@@ -1,0 +1,14 @@
+# ModelSim / Questa
+work/
+vsim.wlf
+*.wlf
+*.log
+*.do
+
+# Backup / temp files
+*~
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
