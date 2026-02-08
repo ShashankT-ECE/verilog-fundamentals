@@ -4,7 +4,7 @@ module mux_8x1(
     output reg y
 );
 
-always@(*)begin
+always@(*)begin //*->lot of variables
     case({s})
         3'b000:y=i[0];
         3'b001:y=i[1];
