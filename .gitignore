@@ -12,3 +12,6 @@ vsim.wlf
 # OS files
 .DS_Store
 Thumbs.db
+# Vim swap files
+*.swp
+*.swo
