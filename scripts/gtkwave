@@ -1,0 +1,26 @@
+#!/bin/bash
+# GTKWave launcher wrapper — unsets Snap VS Code environment variables
+# that cause GTKWave to load the wrong GTK/pthread libraries.
+#
+# Root cause: Snap VS Code sets GTK_PATH, GTK_EXE_PREFIX, GIO_MODULE_DIR,
+# GSETTINGS_SCHEMA_DIR, and other variables to its own Snap-packaged paths.
+# GTKWave (a GTK application) picks up these Snap GTK libraries, which
+# link against /snap/core20/.../libpthread.so.0 instead of the system
+# libpthread, causing:
+#   undefined symbol: __libc_pthread_init, version GLIBC_PRIVATE
+
+# Unset all Snap VS Code environment variables that affect library loading
+unset GTK_PATH
+unset GTK_EXE_PREFIX
+unset GTK_IM_MODULE_FILE
+unset GIO_MODULE_DIR
+unset GSETTINGS_SCHEMA_DIR
+unset LOCPATH
+
+# Restore original XDG data dirs (before Snap VS Code modified them)
+if [ -n "$XDG_DATA_DIRS_VSCODE_SNAP_ORIG" ]; then
+    export XDG_DATA_DIRS="$XDG_DATA_DIRS_VSCODE_SNAP_ORIG"
+fi
+
+# Launch the real GTKWave with all arguments
+exec /usr/bin/gtkwave "$@"

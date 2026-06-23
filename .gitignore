@@ -15,3 +15,7 @@ Thumbs.db
 # Vim swap files
 *.swp
 *.swo
+
+# Simulation output
+*.vcd
+sim.out
