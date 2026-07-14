@@ -1,0 +1,17 @@
+# Simulation outputs
+*.vcd
+*.fst
+
+# Compiled binaries
+*.out
+*.vvp
+
+# GTKWave session files
+*.gtkw
+
+# VS Code
+.vscode/
+
+# Python cache
+__pycache__/
+*.pyc
