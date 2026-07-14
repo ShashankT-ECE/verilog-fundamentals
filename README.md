@@ -11,8 +11,8 @@ A comprehensive collection of RTL Design and Digital Logic projects implemented 
 - [ ] UVM
 
 ### Combinational Design Pack
-- [ ] Half Adder
-- [ ] Full Adder
+- [x] Half Adder
+- [x] Full Adder
 - [ ] Ripple Carry Adder
 - [ ] Multiplexers
 - [ ] Decoders
