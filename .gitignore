@@ -1,12 +1,14 @@
 # Simulation outputs
 sim
 *.vcd
-
-# Icarus Verilog
 *.vvp
-
-# GTKWave
 *.gtkw
 
-# Temporary files
+# Logs
 *.log
+
+# VS Code
+.vscode/
+
+# Linux
+*~
