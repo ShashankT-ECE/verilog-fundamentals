@@ -1,17 +1,12 @@
 # Simulation outputs
+sim
 *.vcd
-*.fst
 
-# Compiled binaries
-*.out
+# Icarus Verilog
 *.vvp
 
-# GTKWave session files
+# GTKWave
 *.gtkw
 
-# VS Code
-.vscode/
-
-# Python cache
-__pycache__/
-*.pyc
+# Temporary files
+*.log
