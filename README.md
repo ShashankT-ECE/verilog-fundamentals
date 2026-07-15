@@ -13,7 +13,7 @@ A comprehensive collection of RTL Design and Digital Logic projects implemented 
 ### Combinational Design Pack
 - [x] Half Adder
 - [x] Full Adder
-- [ ] Ripple Carry Adder
+- [x] Ripple Carry Adder
 - [ ] Multiplexers
 - [ ] Decoders
 - [ ] Encoders
