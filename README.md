@@ -16,7 +16,7 @@ A comprehensive collection of RTL Design and Digital Logic projects implemented 
 - [x] Ripple Carry Adder
 - [x] Multiplexers
 - [x] Decoders
-- [ ] Encoders
+- [x] Encoders
 - [ ] Comparators
 - [ ] ALU
 - [ ] Parity Generator
