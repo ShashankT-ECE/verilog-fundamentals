@@ -21,7 +21,7 @@ A comprehensive collection of RTL Design and Digital Logic projects implemented 
 - [ ] ALU
 
 ### Sequential Design Pack
-- [ ] D Flip-Flop
+- [x] D Flip-Flop
 - [ ] JK Flip-Flop
 - [ ] T Flip-Flop
 - [ ] Synchronous Counter
