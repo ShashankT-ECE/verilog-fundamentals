@@ -17,9 +17,8 @@ A comprehensive collection of RTL Design and Digital Logic projects implemented 
 - [x] Multiplexers
 - [x] Decoders
 - [x] Encoders
-- [ ] Comparators
+- [x] Comparators
 - [ ] ALU
-- [ ] Parity Generator
 
 ### Sequential Design Pack
 - [ ] D Flip-Flop
