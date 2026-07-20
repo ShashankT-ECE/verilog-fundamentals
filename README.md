@@ -28,7 +28,7 @@ A comprehensive collection of RTL Design and Digital Logic projects implemented 
 - [ ] Up/Down Counter
 - [ ] Mod-N Counter
 - [x] Ring Counter
-- [ ] Johnson Counter
+- [x] Johnson Counter
 - [ ] Frequency Divider
 
 ### FSM Design Pack
