@@ -25,8 +25,8 @@ A comprehensive collection of RTL Design and Digital Logic projects implemented 
 - [x] JK Flip-Flop
 - [ ] T Flip-Flop
 - [x] Synchronous Counter
-- [ ] Up/Down Counter
-- [ ] Mod-N Counter
+- [x] Up/Down Counter
+- [x] Mod-N Counter
 - [x] Ring Counter
 - [x] Johnson Counter
 - [ ] Frequency Divider
