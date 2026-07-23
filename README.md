@@ -22,14 +22,12 @@ A comprehensive collection of RTL Design and Digital Logic projects implemented 
 
 ### Sequential Design Pack
 - [x] D Flip-Flop
-- [x] JK Flip-Flop
-- [ ] T Flip-Flop
+- [x] JK Flip-Flop - Used in Behavioral Modelling
 - [x] Synchronous Counter
 - [x] Up/Down Counter
 - [x] Mod-N Counter
-- [x] Ring Counter
-- [x] Johnson Counter
-- [ ] Frequency Divider
+- [x] Ring Counter,Johnson Counter,Decade and Gray Counters
+- [x] Shift Registers
 
 ### FSM Design Pack
 - [ ] Moore Sequence Detector
